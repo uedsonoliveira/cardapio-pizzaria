@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: "Arial";
+    background-image: url("img/img-pizza.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.cabecalho{
+    text-align: center;
+    margin: 2% 20%;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 5px 5px 10px 1px yellow;
+}
+
+.container{
+    background-color: white;
+    margin: 5% 20%;
+    border: 3px solid rgb(255, 0, 0);
+    padding: 15px 15px;
+    position: relative;
+    box-shadow: 5px 5px 10px 1px yellow;
+}
+
+.container .produto{
+    font-size: 20px;
+}
+
+.container .descricao{
+    text-align: justify;
+}
+
+.container .numero-pedido{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 0);
+    box-shadow: 5px 5px 10px 1px;
+    font-weight: bold;
+    display: inline;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+    top: -35px;
+}
+
+.container .btn-fazer-pedido{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: -25px;
+    right: 15px;
+    box-shadow: 5px 5px 10px 1px;
+}
