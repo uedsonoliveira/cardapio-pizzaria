@@ -3,3 +3,5 @@ Projeto criado usando a plataforma DEVMEDIA onde estudo sobre  Desenvolvimento W
 
 Após analisado o código foi percebido que o background-position: center, seria necessário para a responsividade. 
 Por isso foi adicionado ao estilo.css.
+
+Com ajuda e feedback de um aluno da plataforma DEVMEDIA foi adicionado o background-attachment: fixed.
